@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Local environments
+.env
+.venv/
+venv/
+env/
+
+# Runtime outputs
+/work_dirs/
+/outputs/
+/results/
+/tmp/
+/temp/
+*.log
+*.out
+*.err
+
+# Datasets and experiment artifacts
+/data/
+/datasets/
+/ckpts/
+/checkpoints/
+*.pth
+*.pt
+*.pkl
+*.pickle
+!pretrained/*.pth
